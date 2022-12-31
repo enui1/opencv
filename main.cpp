@@ -7,8 +7,8 @@ int main(int argc, char** argv )
 {
     Mat image;
     image = imread( argv[1], 1 );
-    namedWindow("Display", WINDOW_AUTOSIZE );
-    imshow("Display", image);
+    namedWindow("Display1", WINDOW_AUTOSIZE );
+    imshow("Display1", image);
     waitKey(0);
     return 0;
 }
